@@ -31,11 +31,7 @@ class ApplicationController < Sinatra::Base
 	end
 
 	post "/login" do
-	  
-	  "LOGGED IN"
-		#your code here!
-		# username
-		# password
+	  user = User.find_by(:username => params[:username])
 	end
 
 	get "/success" do
