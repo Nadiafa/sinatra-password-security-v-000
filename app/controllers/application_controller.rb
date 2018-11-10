@@ -31,6 +31,8 @@ class ApplicationController < Sinatra::Base
 	end
 
 	post "/login" do
+	  
+	  "LOGGED IN"
 		#your code here!
 		# username
 		# password
